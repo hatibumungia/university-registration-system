@@ -1,12 +1,12 @@
-# Tasks 
+# Tasks
 
 |     Item        | File                         | Description                                                  | Personnel | Personal Desc|
 |-----------------|------------------------------|--------------------------------------------------------------|-----------|--------------|
 | Dashboard       | dashboard.html               | With navbar, sidebar, main content and footer                | Michael   |
 | Login           | login.html                   | Form with username, password, button and Forgot Password link| Khadija   |
 | Change Password | change-password.html         | Form with old, new, confirm and button                       | Khadija   |
-| Bursa           | bursa-search.html            | Form for searching a student with registration number        | Mtinangi  |
-| Bursa           | bursa-add-financial.html     | Form with form fields                                        | Mtinangi  |
+| Bursar          | bursar-search.html           | Form for searching a student with registration number        | Mtinangi  |
+| Bursar          | bursar-add-financial.html    | Form with form fields                                        | Mtinangi  |
 | Super Admin     | sadmin-add-staff.html        | Form with fiels of staffname, type, email, college, etc      | Hatibu    |
 | College Admin   | cadmin-add-warden.html       | Form with fiels of name, email, phone, button etc            | Hatibu    |
 | Principal       | p-view-all-students.html     |                                                              | Levina    |
