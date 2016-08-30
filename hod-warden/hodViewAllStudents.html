@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Starter Dashboard</title>
+
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<style>
+		.navbar {
+			border-radius: 0;
+		}
+		.footer {
+			background-color: #7FB2F0;
+			color: #000;
+			padding: 1%;
+		    /* position: fixed; */
+		    bottom:0;			
+		}
+	</style>
+
+</head>
+<body>
+
+
+	<div class="container-fluid container-main">
+		<!-- Nav bar -->
+		<div class="row">
+			<div class="col-sm-12">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">Title</a>
+						</div>
+				
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse navbar-ex1-collapse">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+							</ul>
+							<form class="navbar-form navbar-left" role="search">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Search">
+								</div>
+								<button type="submit" class="btn btn-default">Submit</button>
+							</form>
+							<ul class="nav navbar-nav navbar-right">
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Action</a></li>
+										<li><a href="#">Another action</a></li>
+										<li><a href="#">Something else here</a></li>
+										<li><a href="#">Separated link</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div>
+				</nav>
+			</div>
+		</div>
+		<!-- //Nav bar -->
+
+		<!-- main -->
+		<div class="row">
+			<!-- side bar menu -->
+			<div class="col-sm-3">
+				<div class="list-group">
+					<a href="hod-view-all-students.html" class="list-group-item active">All Students</a>
+				</div>
+			</div>
+			<!-- //side bar menu -->
+			<!-- main content -->
+			<div class="col-sm-9">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">All students information</h3>
+					</div>
+					<div class="panel-body">
+					<table class="table table-striped">
+					     <thead>
+                      <tr>
+                      <th>Name</th>
+                      <th>Reg.No</th>
+                      <th>Programme</th>
+                      <th>Room.No</th>
+                      <th>Year</th>
+                      <th>Contact</th>
+                      </tr>
+                       <tr>
+                       <td>Franck Stanley</td>
+                       <td>T/UDOM/2014/06962</td>
+                       <td>Bsc,SE</td>
+                       <td>6B F16</td>
+                       <td>First year</td>
+                       <td>0654 201234</td>
+                       </tr>
+                       <tr>
+                       <td>Amos juma</td>
+                       <td>T/UDOM/2014/06892</td>
+                       <td>Bsc,CE</td>
+                       <td>6A G1</td>
+                       <td>First year</td>
+                       <td>0654 098345</td></tr>
+                       <tr><td>Anna Peter</td><td>T/UDOM/2014/0062</td><td>Bsc,BIS</td><td>5B F4</td><td>First year</td><td>0764 200234</td></tr>
+                       <tr><td>David John</td><td>T/UDOM/2012/1462</td><td>Bsc,SE</td><td>6A S6</td><td>First year</td><td>0684 100234</td></tr>
+                       <tr><td>Seleman Mkono</td><td>T/UDOM/2013/06962</td><td>Bsc,HIS</td><td>5A T2</td><td>First year</td><td>0674 892034</td></tr>
+                        </thead>
+                        </table>
+					</table>
+					</div>
+				</div>
+			</div>
+			<!-- //main content -->
+		</div>
+		<!-- //main -->
+
+		<!-- footer -->
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="footer">
+					<p class="text-center">UDOM SRS <i class="fa fa-copyright"></i> 2016. All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+		<!-- //footer -->
+
+	</div>
+
+
+	<script src="js/jquery-3.1.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script>
+		$(function(){
+
+		});
+	</script>
+
+</body>
+</html>
