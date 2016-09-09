@@ -23,7 +23,7 @@ class checkRole
         if($request->user()->hasAnyRole($roles)||!$roles){
                 return $next($request);    
         } 
-          return response("insufient permission",401);    
+         return response("insufient permission",401); 
         }
          return $next($request); 
     }

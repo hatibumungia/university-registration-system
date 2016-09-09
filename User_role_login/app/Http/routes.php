@@ -11,6 +11,7 @@
 |
 */
 Route::group(['middleware'=>'web'],function(){
+Route::auth();
  Route::get('/',['uses'=>'AuthController@index',
                'as'=>'index']);
 

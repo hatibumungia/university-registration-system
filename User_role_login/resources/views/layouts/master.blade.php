@@ -8,6 +8,7 @@
 @yield('style')
 </head>
 <body>
+ 
 <div class="container-fluid" id="container">
 <div class="row">
 @include('include.header')
